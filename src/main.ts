@@ -5,7 +5,7 @@ import 'primeflex/primeflex.css'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import PrimeVue from 'primevue/config'
-import Nora from '@primevue/themes/nora'
+import Aura from '@primevue/themes/aura'
 
 import Menubar from 'primevue/menubar'
 
@@ -18,7 +18,7 @@ app.use(createPinia())
 app.use(router)
 app.use(PrimeVue, {
   theme: {
-    preset: Nora
+    preset: Aura
   }
 })
 
